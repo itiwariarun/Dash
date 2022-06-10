@@ -1,91 +1,91 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="bg-gray-200 h-[63rem] g-sidenav-show">
-    <aside class="h-full mt-5 border-0 sidenav navbar navbar-vertical navbar-expand-xs border-radius-xl fixed-start bg-gradient-dark" id="sidenav-main">
+<div class="bg-stone-100 h-[63rem] max-w-full g-sidenav-show">
+    <aside class="h-full mt-[3.28rem] border-0 sidenav navbar navbar-vertical navbar-expand-xs border-radius-xl fixed-start bg-gradient-light" id="sidenav-main">
       <div class="sidenav-header ">
-        <i class="top-0 p-3 text-white cursor-pointer fas fa-times opacity-5 position-absolute end-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
-        <a class="m-0 navbar-brand" href="#" target="_blank">
+        <i class="top-0 p-3 text-stone-800 cursor-pointer fas fa-times opacity-5 position-absolute end-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
+        <a class="m-0 border-b-2 border-stone-800 navbar-brand" href="#" target="_blank">
          
-          <span class="text-white ms-1 font-weight-bold">Admin Panel</span>
+          <span class="text-stone-800  text-lg font-weight-bold">Admin Panel</span>
         </a>
       </div>
-      <hr class="mt-0 mb-2 horizontal light">
+      <hr class="mt-0 mb-4 horizontal light">
       <div class="w-auto collapse navbar-collapse " id="sidenav-collapse-main">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="text-white nav-link active bg-gradient-dark" href="#">
-              <div class="text-center text-white me-2 d-flex align-items-center justify-content-center">
-                <i class="material-icons opacity-10">dashboard</i>
+            <a class=" text-stone-800 nav-link active bg-gradient-info" href="#">
+              <div class="text-center  text-stone-800 me-2 d-flex align-items-center justify-content-center">
+                <i class="material-icons font-semibold opacity-10">dashboard</i>
               </div>
-              <span class="nav-link-text ms-1">Dashboard</span>
+              <span class="nav-link-text font-semibold text-stone-800 ms-1">Dashboard</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="text-white nav-link " href="#">
-              <div class="text-center text-white me-2 d-flex align-items-center justify-content-center">
-                <i class="material-icons opacity-10">table_view</i>
+            <a class=" text-stone-800 nav-link " href="#">
+              <div class="text-center  text-stone-800 me-2 d-flex align-items-center justify-content-center">
+                <i class="material-icons font-semibold opacity-10">table_view</i>
               </div>
-              <span class="nav-link-text ms-1">Auditor List</span>
+              <span class="nav-link-text font-semibold text-stone-800 ms-1">Auditor List</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="text-white nav-link " href="#">
-              <div class="text-center text-white me-2 d-flex align-items-center justify-content-center">
-                <i class="material-icons opacity-10">receipt_long</i>
+            <a class=" text-stone-800 nav-link " href="#">
+              <div class="text-center  text-stone-800 me-2 d-flex align-items-center justify-content-center">
+                <i class="material-icons font-semibold opacity-10">receipt_long</i>
               </div>
-              <span class="nav-link-text ms-1">Contractor List</span>
+              <span class="nav-link-text font-semibold text-stone-800 ms-1">Contractor List</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="text-white nav-link " href="#">
-              <div class="text-center text-white me-2 d-flex align-items-center justify-content-center">
-                <i class="material-icons opacity-10">view_in_ar</i>
+            <a class=" text-stone-800 nav-link " href="#">
+              <div class="text-center  text-stone-800 me-2 d-flex align-items-center justify-content-center">
+                <i class="material-icons font-semibold opacity-10">view_in_ar</i>
               </div>
-              <span class="nav-link-text ms-1">Reporting</span>
+              <span class="nav-link-text font-semibold text-stone-800 ms-1">Reporting</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="text-white nav-link " href="#">
-              <div class="text-center text-white me-2 d-flex align-items-center justify-content-center">
-                <i class="material-icons opacity-10">format_textdirection_r_to_l</i>
+            <a class=" text-stone-800 nav-link " href="#">
+              <div class="text-center  text-stone-800 me-2 d-flex align-items-center justify-content-center">
+                <i class="material-icons font-semibold opacity-10">format_textdirection_r_to_l</i>
               </div>
-              <span class="nav-link-text ms-1"> Assignment</span>
+              <span class="nav-link-text font-semibold text-stone-800 ms-1"> Assignment</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="text-white nav-link " href="#">
-              <div class="text-center text-white me-2 d-flex align-items-center justify-content-center">
-                <i class="material-icons opacity-10">notifications</i>
+            <a class=" text-stone-800 nav-link " href="#">
+              <div class="text-center  text-stone-800 me-2 d-flex align-items-center justify-content-center">
+                <i class="material-icons font-semibold opacity-10">notifications</i>
               </div>
-              <span class="nav-link-text ms-1">Time</span>
+              <span class="nav-link-text font-semibold text-stone-800 ms-1">Time</span>
             </a>
           </li>
           <li class="mt-3 nav-item">
-            <h6 class="text-xs text-white ps-4 ms-2 text-uppercase font-weight-bolder opacity-8">Account pages</h6>
+            <h6 class="text-xs  text-stone-900 ps-4 ms-2 text-uppercase font-weight-bolder opacity-6">Account pages</h6>
           </li>
           <li class="nav-item">
-            <a class="text-white nav-link " href="#">
-              <div class="text-center text-white me-2 d-flex align-items-center justify-content-center">
-                <i class="material-icons opacity-10">person</i>
+            <a class=" text-stone-800 nav-link " href="#">
+              <div class="text-center  text-stone-800 me-2 d-flex align-items-center justify-content-center">
+                <i class="material-icons  font-semibold opacity-10">person</i>
               </div>
-              <span class="nav-link-text ms-1">Profile</span>
+              <span class="nav-link-text font-semibold text-stone-800 ms-1">Profile</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="text-white nav-link " href="#">
-              <div class="text-center text-white me-2 d-flex align-items-center justify-content-center">
-                <i class="material-icons opacity-10">login</i>
+            <a class=" text-stone-800 nav-link " href="#">
+              <div class="text-center  text-stone-800 me-2 d-flex align-items-center justify-content-center">
+                <i class="material-icons font-semibold opacity-10">login</i>
               </div>
-              <span class="nav-link-text ms-1">Sign In</span>
+              <span class="nav-link-text font-semibold text-stone-800 ms-1">Sign In</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="text-white nav-link " href="#">
-              <div class="text-center text-white me-2 d-flex align-items-center justify-content-center">
-                <i class="material-icons opacity-10">assignment</i>
+            <a class=" text-stone-800 nav-link " href="#">
+              <div class="text-center  text-stone-800 me-2 d-flex align-items-center justify-content-center">
+                <i class="material-icons font-semibold opacity-10">assignment</i>
               </div>
-              <span class="nav-link-text ms-1">Sign Up</span>
+              <span class="nav-link-text font-semibold text-stone-800 ms-1">Sign Up</span>
             </a>
           </li>
         </ul>
@@ -285,9 +285,9 @@
           <div class="mt-4 mb-4 col-lg-4 col-md-6">
             <div class="card z-index-2 ">
               <div class="p-0 mx-3 bg-transparent card-header position-relative mt-n4 z-index-2">
-                <div class="py-3 bg-gradient-dark shadow-dark border-radius-lg pe-1">
+                <div class="py-3 bg-gradient-secondary shadow-dark border-radius-lg pe-1">
                   <div class="chart">
-                    <p id="" class="chart-canvas h-[10rem] text-center py-5 text-white font-bold text-xl ">Total number of persons Visited </p>
+                    <p id="" class="chart-canvas h-[10rem] text-center py-5  text-stone-200 font-bold text-xl ">Total number of persons Visited </p>
                   </div>
                 </div>
               </div>
@@ -305,9 +305,9 @@
           <div class="mt-4 mb-4 col-lg-4 col-md-6">
             <div class="card z-index-2 ">
               <div class="p-0 mx-3 bg-transparent card-header position-relative mt-n4 z-index-2">
-                <div class="py-3 bg-gradient-dark shadow-dark border-radius-lg pe-1">
+                <div class="py-3 bg-gradient-secondary shadow-dark border-radius-lg pe-1">
                   <div class="chart">
-                    <p id="chart-line" class="chart-canvas h-[10rem] text-center py-5 text-white font-bold text-xl ">Total number of Products saled</p>
+                    <p id="chart-line" class="chart-canvas h-[10rem] text-center py-5  text-stone-200 font-bold text-xl ">Total number of Products saled</p>
                   </div>
                 </div>
               </div>
@@ -325,9 +325,9 @@
           <div class="mt-4 mb-3 col-lg-4">
             <div class="card z-index-2 ">
               <div class="p-0 mx-3 bg-transparent card-header position-relative mt-n4 z-index-2">
-                <div class="py-3 bg-gradient-dark shadow-dark border-radius-lg pe-1">
+                <div class="py-3 bg-gradient-secondary shadow-dark border-radius-lg pe-1">
                   <div class="chart">
-                    <p id="chart-line-tasks" class="chart-canvas h-[10rem] text-center py-5 text-white font-bold text-xl ">Completed Task</p>
+                    <p id="chart-line-tasks" class="chart-canvas h-[10rem] text-center py-5  text-stone-200 font-bold text-xl ">Completed Task</p>
                   </div>
                 </div>
               </div>

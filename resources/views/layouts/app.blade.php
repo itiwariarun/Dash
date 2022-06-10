@@ -28,17 +28,17 @@
 </head>
 <body>
 
-    <div id="app" class="min-w-full h-[65rem] bg-gradient-to-l from-stone-500 ">
+    <div id="app" class="min-w-full truncate h-[65rem] bg-gradient-light ">
         
          
-<nav class="bg-stone-50 navbar border-box navbar-expand-lg navbar-dark ">
+<nav class="bg-light navbar border-box navbar-expand-lg navbar-dark ">
     <a href="{{url('/')}}" >
         <h1 class="fixed font-serif text-2xl top-1 left-5 text-stone-800 text-uppercase">Hooks Form</h1>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-        <span class="rounded-lg navbar-toggler-icon bg-stone-800"></span>
+        <span class="rounded-lg text-white navbar-toggler-icon bg-stone-600"></span>
     </button>
-    <div class="justify-center text-lg text-black collapse navbar-collapse" id="navbarCollapse">
+    <div class="justify-center text-lg text-stone-800 collapse navbar-collapse" id="navbarCollapse">
          <div class="navbar-nav">
                                                     <div class="truncate columns-4">
 

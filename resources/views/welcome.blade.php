@@ -29,7 +29,7 @@
       
          <div class="truncate">
        
-<nav class="bg-stone-50 h-14 navbar border-box navbar-expand-lg navbar-dark ">
+<nav class="bg-gradient-light h-14 navbar border-box navbar-expand-lg navbar-dark ">
     
     <a href="{{url('/')}}" >
         <h1 class="pt-2 pl-0 font-serif text-2xl text-stone-900 text-uppercase">Hooks Form</h1>

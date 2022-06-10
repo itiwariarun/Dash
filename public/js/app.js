@@ -5437,7 +5437,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function Footer() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-    "class": "h-[20rem] min-full bg-stone-50",
+    "class": "h-[24rem] min-w-full truncate bg-gradient-light",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
       "class": " columns-4 container space-x-10  h-[20rem] text-center px-20 pt-[3rem] min-w-full ",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
@@ -5445,7 +5445,7 @@ function Footer() {
         children: [" ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
           href: "{{url('/home')}}",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h1", {
-            "class": "pt-7 pl-28 m-0 font-serif font-semibold text-2xl text-stone-900 text-uppercase",
+            "class": "pt-7 pl-28 m-0 truncate font-serif font-semibold text-xl text-stone-900 text-uppercase",
             children: "Hooks Form"
           })
         })]
@@ -5475,7 +5475,7 @@ function Footer() {
         })]
       })]
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
-      className: "pb-5 font-black text-center",
+      className: "pb-1 font-black text-center",
       children: "@ Copyright by XYZ"
     })]
   });
